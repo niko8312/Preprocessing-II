@@ -1,1 +1,18 @@
 // Mixins in here
+
+.displayflex(@direction, @justify){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+}
+
+.btnform(@width, @bradius){
+    width: @width;
+    border-radius: @bradius;
+}
+
+.btncontent(@fontsize, @pad){
+    font-size:@fontsize;
+    padding:@pad;
+    text-align: center;
+}
